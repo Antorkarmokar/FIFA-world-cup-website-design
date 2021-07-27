@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    box-sizing:border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:STIXTwoMath-Regular;
+}
+a{
+    font-family:STIXTwoMath-Regular; 
+}
+.container{
+    width:1140px;
+    padding-left:10px;
+    padding-right:10px;
+    margin:0 auto;
+}
+/*header section styling start*/
+#main-header{
+    background:#2D25A0;
+    width:100%;
+}
+.menuwrapper{
+    overflow:hidden;
+}
+.primary-menu{
+    width: 576px;
+    float:left;
+}
+.primary-menu ul{
+    list-style-type:none;
+}
+.primary-menu ul li{
+    float:left;
+}
+.primary-menu ul li a{
+    text-decoration:none;
+    display:block;
+    color:#FFFFFF;
+    padding: 18px 20px;
+}
+.login-box{
+     width:530px;
+     float:left;
+}
+.login-box a{
+    text-decoration:none;
+    display: block;
+    float: right;
+    color: #FFFFFF;
+    background: #E02C6D;
+    padding: 13px 30px;
+    border-radius: 1px;
+}
+.login-box a i{
+    font-size: 16px;
+}
+/*header section styling end*/
